@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240" height="56" viewBox="0 0 240 56" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GameNest logo">
+  <defs>
+    <linearGradient id="gn_grad" x1="0" y1="0" x2="240" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.6" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="normal"/>
+    </filter>
+  </defs>
+  <g transform="translate(8,8)">
+    <circle cx="20" cy="20" r="18" stroke="url(#gn_grad)" stroke-width="2.5" fill="none"/>
+    <circle cx="20" cy="20" r="12" stroke="url(#gn_grad)" stroke-width="2" stroke-dasharray="3 3" fill="none"/>
+    <rect x="10.5" y="16" rx="6" ry="6" width="19" height="12" fill="url(#gn_grad)" filter="url(#soft)"/>
+    <rect x="12" y="17.5" rx="5" ry="5" width="16" height="9" fill="#0b1020"/>
+    <rect x="16" y="20.5" width="4" height="1.5" fill="url(#gn_grad)"/>
+    <rect x="21.5" y="20.5" width="1.5" height="1.5" fill="url(#gn_grad)"/>
+    <rect x="24" y="20.5" width="1.5" height="1.5" fill="url(#gn_grad)"/>
+    <rect x="21.5" y="23" width="1.5" height="1.5" fill="url(#gn_grad)"/>
+  </g>
+  <g transform="translate(56,13)">
+    <text x="0" y="18" font-family="system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, sans-serif" font-size="24" font-weight="800" fill="url(#gn_grad)">GameNest</text>
+    <text x="0" y="40" font-family="system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1">PLAY. COMPETE. CONNECT.</text>
+  </g>
+</svg>
